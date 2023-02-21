@@ -1,0 +1,65 @@
+{% extends 'store/layouts/main.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="py-3 bg-primary">
+    <div class="container">
+      <a class="text-white" href="{% url 'home' %}">Home/</a>
+      <a  class ="text-white" href="{% url 'aboutus' %}">About Us/</a>  
+    </div>
+</div>
+<div class="container-xxl py-2">
+    <div class="container">
+        <div class="row g-5 align-items-end">
+            <h1>Cleaner and Greener Earth with Terra Verde
+            </h1>
+            <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" data-wow-delay="0.1s" src="{% static 'mainpage/img/about.jpg' %}">
+            </div>
+            <div class="col-lg-6 col-md-7 " data-wow-delay="0.3s">
+                <p class="text-dark mb-4 fw-semibold">Choosing TerraVerde means you’re helping to build a more sustainable world. These certifications are just one example of our commitment to a better planet, and serve as a representation of how your choices make a real impact on our planet. Learn more about these certifications below.
+                </p>
+                <p class="text-dark mb-4 fw-semibold">We are striving to create a sustainable future by reducing our impact on the environment. We are working to reduce our emissions and our reliance on fossil fuels by investing in renewable energy sources, using electric vehicles and incentivizing our employees to go green.
+
+                </p>
+                <p class="text-dark mb-4 fw-semibold">Vision: A cleaner and greener Earth where humans and nature can thrive together in harmony.
+
+                </p>
+                <h1 class="display-5 mb-4">We Make Your Home Like A Garden</h1>
+                <p class="mb-4 fw-semibold">Mission: We wish to create a world standing on eco-friendly foundations where sustainability and innovation go hand in hand. It’s only when we care for our environment will our future generation have a safe world to live in.
+                </p>
+                <!--<a class="btn btn-primary py-3 px-4" href="">Explore More</a>-->
+            </div>
+            <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row g-5">
+                    <div class="col-12 col-sm-6 col-lg-12">
+                        <div class="border-start ps-2">
+                            <i class="fa fa-award fa-3x text-primary mb-3"></i>
+                            <h4 class="mb-3">Award Winning</h4>
+                            <span>Award Winning</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-12">
+                        <div class="border-start ps-4">
+                            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+                            <h4 class="mb-3">Dedicated Team</h4>
+                            <span>Dedicated Team</span>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 col-sm-6 col-lg-12">
+                        <div class="border-start ps-4">
+                            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+                            <h4 class="mb-3">Dedicated Team</h4>
+                            <span>Dedicated Team</span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
